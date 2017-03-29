@@ -8,8 +8,13 @@
   flex-direction: column;
   background-color: $card-bg;
   border: $card-border-width solid $card-border-color;
-  @include border-radius($card-border-radius);
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+margin-bottom:10px;
 }
+
 
 .card-block {
   // Enable `flex-grow: 1` for decks and groups so that card blocks take up
@@ -50,7 +55,8 @@
 
   > .list-group:last-child {
     .list-group-item:last-child {
-      @include border-bottom-radius($card-border-radius);
+      @include 
+      border-bottom-radius($card-border-radius);
     }
   }
 }
@@ -73,11 +79,11 @@
 
 .card-footer {
   padding: $card-spacer-y $card-spacer-x;
-  background-color: $card-cap-bg;
+  background-color: #E8E8E8;
   border-top: $card-border-width solid $card-border-color;
 
   &:last-child {
-    @include border-radius(0 0 $card-border-radius-inner $card-border-radius-inner);
+    @include border-radius(0 0 40px 40px);
   }
 }
 

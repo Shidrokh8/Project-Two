@@ -15,6 +15,380 @@ html {
           box-sizing: inherit;
 }
 
+.navbar-custom {
+  color: #FFFFFF;
+  background-color: #CC3333;
+  button: #AA1741;
+}
+
+.btn1 {
+  background-color: #A08342;
+}
+
+.wrapper-carousel {
+  margin-top: 95px;
+  max-width: 100%;
+  text-align: center;
+  min-width: 100%;
+  position: relative;
+  height: auto;
+  background-color: #fff;
+  text-align: center;
+}
+
+body {
+  background-image: url(".../dist/images/bg-green.jpg");
+  background-repeat: repeat-x;
+}
+
+.button-corner {
+  border-radius: 40px;
+}
+
+.jumbotron a:link, a:visited {
+  background-color: #f99782E;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.jumbotron a:hover, a:active {
+  color: white;
+  background-color: #f99782E;
+}
+
+.dropdown-item a:active {
+  color: white;
+  background-color: #fff;
+}
+
+.Wrapper-jum {
+  background-color: #e6e7e8;
+  width: 100%;
+  height: auto;
+}
+
+.Wrapper-img {
+  width: 100%;
+  max-width: 1200px;
+  height: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.jum-bt-info {
+  width: 300px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  min-width: 400px;
+  padding-left: 60px;
+  padding-right: 20px;
+  text-align: center;
+  float: left;
+  position: relative;
+  padding-top: 10px;
+}
+
+.text {
+  width: 100%;
+  padding-top: 30px;
+  height: auto;
+  max-width: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  padding-bottom: 20px;
+  float: right;
+}
+
+h2 {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.card-deck-wrapper {
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+  margin: 0 auto 90px;
+  margin-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h4.title {
+  text-align: center;
+}
+
+.wrapper-contact {
+  margin-bottom: 50px;
+  width: 100%;
+  height: 780px;
+  background-color: #9B7D38;
+}
+
+.center {
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.wrapper1 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.wrapper2 {
+  background-color: #920F27;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  height: 10px;
+}
+
+.wrapper3 {
+  background-color: #920F27;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  height: 105px;
+}
+
+.wrapper4 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 110px;
+  background-color: #920F27;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  text-align: center;
+}
+
+.wrapper5 {
+  background-color: #006837;
+  padding-bottom: 10px;
+  height: 40px;
+}
+
+.auto-hight {
+  width: 100%;
+  height: auto !important;
+  padding-top: 1.5em;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto 90px;
+  margin-bottom: 40px;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+/* Contact Form Styles */
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+h1 {
+  margin: 10px 0 0 0;
+}
+
+h4 {
+  margin: 0 0 20px 0;
+}
+
+#contact-form {
+  background-color: rgba(72, 72, 72, 0.7);
+  padding: 10px 20px 30px 20px;
+  max-width: 100%;
+  float: left;
+  left: 50%;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -260px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+}
+
+#contact-form input,
+#contact-form select,
+#contact-form textarea,
+#contact-form label {
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+
+#contact-form input,
+#contact-form select,
+#contact-form textarea {
+  width: 100%;
+  background: #fff;
+  border: 0;
+  border-radius: 4px;
+  margin-bottom: 25px;
+  padding: 5px;
+  max-width: 500px;
+}
+
+#contact-form input:focus,
+#contact-form select:focus,
+#contact-form textarea:focus {
+  background-color: #E5E6E7;
+}
+
+#contact-form textarea {
+  width: 100%;
+  height: 150px;
+  max-width: 500px;
+}
+
+#contact-form button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #991D57;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#8C1C50), color-stop(52%, #991D57));
+  background-image: -o-linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
+  background-image: linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
+  background-image: -webkit-linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#contact-form button[type="submit"]:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(bottom), color-stop(0%, #9C215A), color-stop(52%, #A82767));
+  background-image: -o-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+  background-image: linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+  background-image: -webkit-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+  -webkit-transition: background 0.3s ease-in-out;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact-form button[type="submit"]:active {
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+input:required, textarea:required {
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+}
+
+#contact-form .required {
+  font-weight: bold;
+  color: #E5E6E7;
+}
+
+/* Hide success/failure message
+   (especially since the php is missing) */
+#failure, #success {
+  color: #6EA070;
+  display: none;
+}
+
+/* Make form look nice on smaller screens */
+@media only screen and (max-width: 1000px) {
+  #contact-form {
+    left: 3%;
+    margin-right: 3%;
+    width: 88%;
+    margin-left: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+.imagedropshadow {
+  padding: 5px;
+  border-radius: 50px;
+}
+
+a:hover img.imagedropshadow {
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 1px 1px 5px #999;
+}
+
+footer {
+  color: white;
+  font-size: 10px;
+}
+
+footer a {
+  color: #920F27;
+}
+
+footer a:hover {
+  color: white;
+}
+
+.footer-bottom {
+  height: 50px;
+  background-color: #920F27;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  text-align: center;
+}
+
+.footer-middle {
+  margin-top: -20px;
+  background: #006837;
+  padding-top: 2em;
+  color: white;
+}
+
+/**Sub Navigation**/
+.subnavigation-container {
+  background: #3d6277;
+}
+
+.subnavigation .nav-link {
+  color: white;
+  font-weight: bold;
+}
+
+.subnavigation-container {
+  text-align: center;
+}
+
+.subnavigation-container .navbar {
+  display: inline-block;
+  margin-bottom: -6px;
+  /* Inline-block margin offffset HACK -Gilron */
+}
+
+.col-subnav a {
+  padding: 1rem 1rem;
+  color: white;
+  font-weight: bold;
+}
+
+.col-subnav .active {
+  border-top: 5px solid orange;
+  background: white;
+  color: white;
+}
+
 .container {
   position: relative;
   margin-left: auto;

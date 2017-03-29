@@ -1,0 +1,1 @@
+{"version":3,"sources":["custom.css"],"names":[],"mappings":";AACA;AACA,WAAW;AACX,uBAAuB;;CAEtB","file":"custom.css","sourcesContent":["\n.auto-hight {\nwidth:100%;\nhight: auto !important;\n\n}\n\n"]}
